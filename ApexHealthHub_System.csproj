@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.11" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Auth\" />
+    <Folder Include="Models\Appointment\" />
+    <Folder Include="Models\Emails\" />
+    <Folder Include="Models\Feedback\" />
+    <Folder Include="Models\RecordsManagement\" />
+    <Folder Include="Models\Payement\" />
+    <Folder Include="Services\Auth\" />
+    <Folder Include="Services\AuthProvider\" />
+    <Folder Include="Services\Emails\" />
+    <Folder Include="Services\Appointment\" />
+    <Folder Include="Services\Feedback\" />
+    <Folder Include="Services\RecordsManagement\" />
+    <Folder Include="Services\Payement\" />
+  </ItemGroup>
+
+</Project>
